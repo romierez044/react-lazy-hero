@@ -1,5 +1,5 @@
 {
-  "name": "react-lazy-hero-fragment",
+  "name": "react-lazy-hero",
   "version": "2.0.0",
   "description": "A hero component for React with image-preloading and parallax",
   "homepage": "http://react-lazy-hero.danielstefanovic.com",
