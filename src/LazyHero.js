@@ -3,7 +3,7 @@ import inViewport from 'in-viewport';
 import PropTypes from 'prop-types';
 // React is a peer dependency
 // eslint-disable-next-line import/no-unresolved, import/extensions
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 // styled-components is a peer dependency
 // eslint-disable-next-line import/no-unresolved, import/extensions
 import styled from 'styled-components';
@@ -168,7 +168,7 @@ class LazyHero extends Component {
                     isCentered={this.props.isCentered}
                     opacity={this.props.opacity}
                 >
-                    {this.props.children && <div>{this.props.children}</div>}
+                    {this.props.children && <Fragment>{this.props.children}</Fragment>}
                 </Overlay>
             </Root>
         );
